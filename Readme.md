@@ -21,7 +21,7 @@ Link do Repositório: https://github.com/Elton-N/desafio_01_kodie_academy
 
 Uso de Inteligência Artificial
 
-Preencher com os prompts utilizados e como a IA ajudou. Exemplos de pontos que podem ser documentados:
+Utilizei IA como apoio durante todo o desenvolvimento, seguindo o uso consciente pedido no desafio: pedi a estrutura, mas revisei, ajustei e entendi cada trecho de código antes de considerar a entrega pronta.
 
 Geração da estrutura semântica inicial da página.
 Sugestão da paleta de cores (tons de papel, azul-marinho e dourado).
