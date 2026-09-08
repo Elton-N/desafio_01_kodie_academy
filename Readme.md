@@ -19,8 +19,6 @@ GitHub Pages: https://elton-n.github.io/desafio_01_kodie_academy/
 
 Link do Repositório: https://github.com/Elton-N/desafio_01_kodie_academy
 
-Preencher com o link do repositório no GitHub.
-
 Uso de Inteligência Artificial
 
 Preencher com os prompts utilizados e como a IA ajudou. Exemplos de pontos que podem ser documentados:
