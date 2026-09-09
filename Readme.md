@@ -1,4 +1,4 @@
- Estante Livre — Biblioteca Virtual
+Estante Livre — Biblioteca Virtual
 Descrição do Projeto
 
 Landing page para a Estante Livre, uma biblioteca virtual fictícia que oferece empréstimo de e-books, audiobooks, clube de leitura e acervo acadêmico gratuitos. O projeto foi desenvolvido como Desafio 01, com foco em HTML semântico, CSS externo e responsividade, sem uso de JavaScript.
@@ -46,4 +46,4 @@ Como ajudou: pedi para a própria IA registrar, de forma organizada, quais promp
 O que revisei manualmente antes de considerar pronto
 Conferi se as imagens (via loremflickr.com) carregavam corretamente.
 Testei a página em diferentes larguras de tela para confirmar que não havia rolagem horizontal, um dos requisitos explícitos do desafio.
-Revisei a hierarquia de títulos (um único <h1> na página, <h2> por seção, <h3> nos cards) para garantir a acessibilidade pedida.
+Revisei a hierarquia de títulos (um único `<h1>` na página, `<h2>` por seção, `<h3>` nos cards) para garantir a acessibilidade pedida.
