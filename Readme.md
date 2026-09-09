@@ -7,7 +7,8 @@ Tecnologias Utilizadas
 HTML5 (semântico)
 CSS3 (Flexbox e Grid, sem CSS inline ou <style>)
 Git e GitHub
-GitHub Pages (publicação)
+GitHub Pages e Vercel (publicação)
+
 Estrutura do Projeto
 biblioteca-virtual/
 ├── index.html
@@ -18,6 +19,8 @@ Link do Site Publicado
 GitHub Pages: https://elton-n.github.io/desafio_01_kodie_academy/
 
 Link do Repositório: https://github.com/Elton-N/desafio_01_kodie_academy
+
+Deploy Vercel: https://desafio-01-kodie-academy.vercel.app/
 
 Uso de Inteligência Artificial
 
