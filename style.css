@@ -1,4 +1,13 @@
 /* ================================================================
+   IMPORTAÇÃO DE FONTES (Google Fonts)
+   Playfair Display: serifada elegante, usada em capas de livros e
+   marcas editoriais — ótima para transmitir sofisticação nos títulos.
+   Lora: serifada, mas desenhada para telas, com ótima legibilidade
+   em blocos de texto corrido.
+================================================================ */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Lora:wght@400;500;600&display=swap');
+
+/* ================================================================
    VARIÁVEIS DE COR E ESPAÇAMENTO
    Paleta inspirada em bibliotecas: tons de papel, madeira e ouro.
 ================================================================ */
@@ -13,6 +22,8 @@
   --cor-borda: #E4D9C4;
   --raio-borda: 10px;
   --sombra: 0 2px 10px rgba(31, 42, 68, 0.08);
+  --fonte-titulo: 'Playfair Display', Georgia, serif; /* Fonte de destaque, usada em títulos e marca */
+  --fonte-texto: 'Lora', Georgia, serif;               /* Fonte de leitura, usada no corpo do texto */
 }
 
 /* ================================================================
@@ -32,7 +43,7 @@ html{
 }
 
 body{
-  font-family: 'Georgia', 'Times New Roman', serif; /* Fonte com "cara de livro" para o corpo do texto */
+  font-family: var(--fonte-texto); /* Fonte de leitura confortável para parágrafos */
   background-color: var(--cor-fundo);
   color: var(--cor-texto);
   line-height: 1.6;
@@ -40,7 +51,8 @@ body{
 }
 
 h1, h2, h3{
-  font-family: 'Arial', sans-serif; /* Fonte sem serifa nos títulos, para contraste com o corpo */
+  font-family: var(--fonte-titulo); /* Fonte elegante nos títulos, para dar personalidade à marca */
+  font-weight: 700;
   color: var(--cor-primaria);
 }
 
@@ -78,7 +90,7 @@ a{
   color: #FFFFFF;
   font-size: 1.3rem;
   font-weight: bold;
-  font-family: 'Arial', sans-serif;
+  font-family: var(--fonte-titulo); /* Mesma fonte de destaque usada nos títulos, reforçando a marca */
 }
 
 .menu{
@@ -135,7 +147,7 @@ a{
   display: inline-block;
   background-color: var(--cor-destaque);
   color: var(--cor-primaria);
-  font-family: 'Arial', sans-serif;
+  font-family: var(--fonte-titulo); /* Mesma fonte de destaque, para o botão ter presença visual */
   font-weight: bold;
   text-decoration: none;
   padding: 14px 28px;
@@ -242,6 +254,13 @@ section h2{
   border-radius: var(--raio-borda);
   overflow: hidden;
   box-shadow: var(--sombra);
+  transition: transform 0.2s ease, box-shadow 0.2s ease; /* Suaviza o efeito ao passar o mouse */
+}
+
+/* Mesmo efeito de elevação usado nos cards do Acervo, para manter consistência visual */
+.grade-galeria figure:hover{
+  transform: translateY(-4px);
+  box-shadow: 0 8px 18px rgba(31, 42, 68, 0.14);
 }
 
 .grade-galeria img{
