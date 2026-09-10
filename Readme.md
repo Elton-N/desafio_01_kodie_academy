@@ -1,16 +1,21 @@
-Estante Livre — Biblioteca Virtual
+# 📚 Estante Livre — Biblioteca Virtual
 
-Descrição do Projeto:
-O meu projeto e uma landing page para a Estante Livre, uma biblioteca virtual fictícia que oferece empréstimo de e-books, audiobooks, clube de leitura e acervo acadêmico gratuitos. O projeto foi desenvolvido como Desafio 01, com foco em HTML semântico, CSS externo e responsividade, sem uso de JavaScript.
+## 📝 Descrição do Projeto
+Landing page para a **Estante Livre**, uma biblioteca virtual fictícia que oferece empréstimo de e-books, audiobooks, clube de leitura e acervo acadêmico gratuitos. O projeto foi desenvolvido como **Desafio 01**, com foco em HTML semântico, CSS externo e responsividade, sem o uso de JavaScript.
 
-Tecnologias Utilizadas
-HTML5 (semântico)
-CSS3 (Flexbox e Grid, sem CSS inline ou <style>)
-Git e GitHub
-GitHub Pages e Vercel (publicação)
+---
 
-Estrutura do Projeto
-biblioteca-virtual/
+## 🚀 Tecnologias Utilizadas
+- **HTML5** (Semântico)
+- **CSS3** (Flexbox e Grid, sem CSS inline ou `<style>`)
+- **Git & GitHub** (Controle de versão)
+- **GitHub Pages & Vercel** (Publicação)
+
+---
+
+## 📁 Estrutura do Projeto
+```text
+desafio_01_kodie_academy/
 ├── index.html
 ├── style.css
 └── README.md
