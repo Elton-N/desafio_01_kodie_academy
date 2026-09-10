@@ -1,19 +1,19 @@
-# 📚 Estante Livre — Biblioteca Virtual
+# Estante Livre — Biblioteca Virtual
 
 ## Descrição do Projeto
-Landing page para a **Estante Livre**, uma biblioteca virtual fictícia que oferece empréstimo de e-books, audiobooks, clube de leitura e acervo acadêmico gratuitos. O projeto foi desenvolvido como **Desafio 01**, com foco em HTML semântico, CSS externo e responsividade, sem o uso de JavaScript.
 
+Landing page para a **Estante Livre**, uma biblioteca virtual fictícia que oferece empréstimo de e-books, audiobooks, clube de leitura e acervo acadêmico gratuitos.
 
+O projeto foi desenvolvido como **Desafio 01**, com foco em HTML semântico, CSS externo e responsividade, sem o uso de JavaScript.
 
 ## Tecnologias Utilizadas
-* **HTML5** (Semântico)
-* **CSS3** (Flexbox e Grid, sem CSS inline ou `<style>`)
-* **Git & GitHub** (Controle de versão)
-* **GitHub Pages & Vercel** (Publicação)
 
+* **HTML5** — Estrutura semântica
+* **CSS3** — Flexbox e Grid, sem CSS inline ou `<style>`
+* **Git e GitHub** — Controle de versão
+* **GitHub Pages e Vercel** — Publicação do projeto
 
-
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```text
 Desafio_01/
@@ -31,40 +31,46 @@ Desafio_01/
 ├── index.html
 ├── README.md
 └── style.css
+```
 
+## Links do Projeto
 
-## 🔗 Links do Projeto
-* **Deploy na Vercel:** [https://desafio-01-kodie-academy.vercel.app/](https://desafio-01-kodie-academy.vercel.app/)
-* **GitHub Pages:** [https://elton-n.github.io/desafio_01_kodie_academy/](https://elton-n.github.io/desafio_01_kodie_academy/)
-* **Repositório no GitHub:** [https://github.com/Elton-N/desafio_01_kodie_academy](https://github.com/Elton-N/desafio_01_kodie_academy)
+* **Deploy na Vercel:** https://desafio-01-kodie-academy.vercel.app/
+* **GitHub Pages:** https://elton-n.github.io/desafio_01_kodie_academy/
+* **Repositório no GitHub:** https://github.com/Elton-N/desafio_01_kodie_academy
 
+## Uso de Inteligência Artificial
 
+Utilizei IA como apoio durante todo o desenvolvimento, seguindo o uso consciente pedido no desafio. Pedi sugestões e orientações, mas revisei, ajustei e procurei entender cada trecho de código antes de considerar a entrega pronta.
 
-##  Uso de Inteligência Artificial
-Utilizei IA como apoio durante todo o desenvolvimento, seguindo o uso consciente pedido no desafio: pedi a estrutura, mas revisei, ajustei e entendi cada trecho de código antes de considerar a entrega pronta.
+* Geração da estrutura semântica inicial da página.
+* Sugestão da paleta de cores, utilizando tons de papel, azul-marinho e dourado.
+* Ajuste do layout responsivo, utilizando Flexbox no Hero e Grid nos cards e na galeria.
+* Explicação de propriedades CSS específicas, como `clamp()`, `object-fit`, `aspect-ratio` e `auto-fit/minmax()`.
 
-* **Geração da estrutura semântica inicial** da página.
-* **Sugestão da paleta de cores** (tons de papel, azul-marinho e dourado).
-* **Ajuste do layout responsivo** (Flexbox no Hero, Grid nos cards e na galeria).
-* **Explicação de propriedades CSS específicas** (`clamp()`, `object-fit`, `aspect-ratio`, `auto-fit/minmax`).
+### Prompts Utilizados
 
-### Prompts Utilizados:
-* **Prompt 1 — Estrutura inicial:** Tive a ideia de criar uma página para uma biblioteca virtual para o meu projeto e pedi ajuda com os requisitos: seções mínimas, tecnologias permitidas, regras de acessibilidade e responsividade.
-* **Prompt 2 — Ajuda no CSS:**
-  * **Contraste de Cores:** Garantir que a cor do texto tenha contraste suficiente contra o fundo.
-  * **Indicadores de Foco:** Manter ou estilizar a regra `:focus-visible` para destacar qual botão/link está selecionado ao usar a tecla Tab.
-  * **Tamanho de Fontes:** Usar unidades relativas (`rem` ou `em`) em vez de pixels fixos para respeitar o zoom do navegador.
-  * **Comentários:** Solicitei apoio na elaboração de comentários no código para facilitar a leitura.
-* **Prompt 3 — Documentação para o README:** Pedi para registrar de forma organizada os prompts utilizados para esta seção, reforçando a transparência pedida no desafio.
+**Prompt 1 — Estrutura inicial**
 
+Tive a ideia de criar uma página para uma biblioteca virtual e pedi ajuda com os requisitos do projeto, incluindo seções mínimas, tecnologias permitidas, regras de acessibilidade e responsividade.
 
+**Prompt 2 — Ajuda no CSS**
 
-##  Revisão e Validação Manual
+* **Contraste de cores:** Garantir que a cor do texto tenha contraste suficiente contra o fundo.
+* **Indicadores de foco:** Manter ou estilizar a regra `:focus-visible` para destacar qual botão ou link está selecionado ao utilizar a tecla Tab.
+* **Tamanho das fontes:** Usar unidades relativas, como `rem` ou `em`, em vez de pixels fixos, para respeitar o zoom do navegador.
+* **Comentários:** Solicitei apoio na elaboração de comentários no código para facilitar a leitura.
+
+**Prompt 3 — Documentação para o README**
+
+Pedi ajuda para registrar de forma organizada os prompts utilizados nesta seção, reforçando a transparência solicitada no desafio.
+
+## Revisão e Validação Manual
+
 * Conferi se as imagens carregavam corretamente.
 * Testei a página em diferentes larguras de tela para confirmar que não havia rolagem horizontal.
-* Revisei a hierarquia de títulos (`<h1>` na página, `<h2>` por seção, `<h3>` nos cards) para garantir a acessibilidade pedida.
+* Revisei a hierarquia de títulos, utilizando `<h1>` na página, `<h2>` por seção e `<h3>` nos cards, para garantir a acessibilidade solicitada.
 
+## Autor
 
-
-## 👤 Autor
 **Elton do Nascimento**
