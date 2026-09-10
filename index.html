@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estante Livre - Biblioteca Virtual</title>
+
+  <!-- CSS externo: nenhum estilo é escrito dentro deste arquivo HTML -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 
+    Skip link: fica invisível até receber foco pelo teclado (Tab).
+    Permite pular direto para o conteúdo principal, sem precisar
+    passar por todos os links do menu a cada visita à página —
+    essencial para quem navega só com teclado ou leitor de tela.
+  -->
+  <a class="skip-link" href="#conteudo-principal">Pular para o conteúdo principal</a>
+
+  <!-- ==========================================================
+       HEADER (CABEÇALHO)
+       Filho direto do <body>: representa o cabeçalho de toda a
+       página, com o nome do projeto e o menu de navegação.
+  =========================================================== -->
+  <header class="cabecalho">
+    <div class="cabecalho-container">
+      <p class="logo"> 📘 📖 🎧 💻 Estante Livre</p>  
+
+      <!-- <nav> agrupa os links de navegação principal do site -->
+      <nav aria-label="Navegação principal">
+        <ul class="menu">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#acervo">Acervo</a></li>
+          <li><a href="#galeria">Galeria</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ==========================================================
+       MAIN
+       Conteúdo principal e único da página. O id abaixo é o
+       destino do skip link lá no topo do body.
+  =========================================================== -->
+  <main id="conteudo-principal">
+
+    <!-- ==========================================================
+         HERO
+         Primeira seção vista pelo usuário: título de impacto,
+         descrição curta e botão de chamada para ação (CTA).
+         O <h1> da página inteira fica aqui, pois é o título mais
+         importante de todo o conteúdo.
+    =========================================================== -->
+    <section class="hero" aria-label="Apresentação">
+      <div class="hero-texto">
+        <h1>Milhares de livros, sempre a um clique de você.</h1>
+        <p>
+          A Estante Livre é uma biblioteca virtual gratuita: empréstimo de
+          e-books, audiobooks e um acervo em constante crescimento, para você
+          ler quando e onde quiser.
+        </p>
+        <!-- CTA: link estilizado como botão, sem precisar de JavaScript -->
+        <a class="botao-cta" href="#acervo">Explorar Acervo</a>
+      </div>
+
+      <!-- Imagem ilustrativa do topo, com alt descritivo para acessibilidade -->
+      <img
+        class="hero-imagem"
+        src="/imagem/livro_virtual.jpg"
+        alt="Estante de madeira repleta de livros coloridos organizados lado a lado">
+    </section>
+
+    <!-- ==========================================================
+         SOBRE
+         Apresentação do projeto: o que é e qual seu propósito.
+    =========================================================== -->
+    <section id="sobre" class="sobre">
+      <h2>Sobre o Projeto</h2>
+      <article>
+        <p>
+          A Estante Livre nasceu da ideia de que o acesso à leitura não deveria
+          depender do endereço ou da renda de ninguém. Reunimos clássicos,
+          lançamentos e obras independentes em um único lugar, com empréstimo
+          100% digital e sem filas de espera para a maior parte do acervo.
+        </p>
+        <p>
+          Além dos livros, oferecemos audiobooks para quem prefere ouvir suas
+          histórias favoritas e um clube de leitura mensal para trocar
+          impressões com outros leitores.
+        </p>
+      </article>
+    </section>
+
+    <!-- ==========================================================
+         ACERVO / SERVIÇOS
+         Cards demonstrativos dos principais serviços oferecidos.
+         Cada <article> é independente: poderia ser exibido sozinho
+         em outro contexto (um anúncio, uma newsletter) e ainda
+         assim faria sentido completo.
+    =========================================================== -->
+    <section id="acervo" class="acervo">
+      <h2>Nosso Acervo e Serviços</h2>
+      <p class="secao-intro">Escolha a forma de ler que mais combina com você.</p>
+
+      <div class="grade-cards">
+        <article class="card">
+          <img
+            src="https://picsum.photos/id/48/400/260"
+            alt="Pessoa lendo um e-book em um tablet">
+          <h3>Empréstimo Digital</h3>
+          <p>
+            Pegue emprestado e-books de todos os gêneros, direto no navegador
+            ou no aplicativo, sem taxas de atraso.
+          </p>
+        </article>
+
+        <article class="card">
+          <img
+            src="https://picsum.photos/id/96/400/260"
+            alt="Fones de ouvido sobre um livro aberto, representando audiobooks">
+          <h3>Audiobooks</h3>
+          <p>
+            Ouça milhares de títulos narrados por profissionais, ideal para
+            aproveitar a leitura durante o trajeto do dia a dia.
+          </p>
+        </article>
+
+        <article class="card">
+          <img
+            src="https://picsum.photos/id/110/400/260"
+            alt="Grupo de pessoas sentadas em círculo conversando sobre um livro">
+          <h3>Clube de Leitura</h3>
+          <p>
+            Participe de encontros mensais online para discutir a obra do mês
+            com outros membros da comunidade.
+          </p>
+        </article>
+
+        <article class="card">
+          <img
+            src="https://picsum.photos/id/180/400/260"
+            alt="Mesa de estudos com livros acadêmicos empilhados">
+          <h3>Acervo Acadêmico</h3>
+          <p>
+            Artigos, monografias e livros didáticos organizados por área do
+            conhecimento, com apoio para trabalhos escolares e acadêmicos.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ==========================================================
+         GALERIA
+         Cada <figure> representa uma imagem independente com sua
+         própria legenda (<figcaption>).
+    =========================================================== -->
+    <section id="galeria" class="galeria">
+      <h2>Galeria</h2>
+      <p class="secao-intro">Um pouco do universo que você vai encontrar por aqui.</p>
+
+      <div class="grade-galeria">
+        <figure>
+          <img
+            src="https://picsum.photos/id/20/450/350"
+            alt="Estante alta e organizada, repleta de livros de capa dura">
+          <figcaption>Um acervo para todos os gostos.</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="https://picsum.photos/id/42/450/350"
+            alt="Xícara de café ao lado de um livro aberto sobre a mesa">
+          <figcaption>Leitura combina com um bom café.</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="https://picsum.photos/id/64/450/350"
+            alt="Criança lendo um livro ilustrado sentada no chão">
+          <figcaption>Incentivando a leitura desde cedo.</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="https://picsum.photos/id/76/450/350"
+            alt="Pilha de livros antigos com capas de couro">
+          <figcaption>Clássicos que atravessam gerações.</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="https://picsum.photos/id/88/450/350"
+            alt="Interior de uma biblioteca ampla com várias fileiras de estantes">
+          <figcaption>Inspirado nas grandes bibliotecas do mundo.</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="/imagem/e_book.jpg"
+            alt="E-reader exibindo a página de um livro digital">
+          <figcaption>Tecnologia a favor da leitura.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ==========================================================
+         CONTATO
+         <address> é a tag semântica correta para informações de
+         contato de uma pessoa, projeto ou organização.
+    =========================================================== -->
+    <section id="contato" class="contato">
+      <h2>Fale Conosco</h2>
+      <p class="secao-intro">Dúvidas, sugestões de livros ou parcerias? Fale com a gente.</p>
+
+      <address>
+        <p>E-mail: <a href="mailto:contato@estantelivre.com.br">contato@estantelivre.com.br</a></p>
+        <p>Telefone: <a href="tel:+5521999999999">(21) 99999-9999</a></p>
+      </address>
+    </section>
+
+  </main>
+
+  <!-- ==========================================================
+       FOOTER
+       Fora do <main>: rodapé de toda a página, com créditos e
+       links para redes sociais.
+  =========================================================== -->
+  <footer class="rodape">
+    <p>Estante Livre — Biblioteca virtual gratuita e colaborativa.</p>
+    <p>&copy; 2026 Estante Livre. Projeto educacional, todos os direitos reservados.</p>
+
+    <nav aria-label="Redes sociais">
+      <ul class="redes-sociais">
+        <li><a href="#instagram-ficticio">Instagram</a></li>
+        <li><a href="#twitter-ficticio">Twitter</a></li>
+        <li><a href="#facebook-ficticio">Facebook</a></li>
+      </ul>
+    </nav>
+  </footer>
+
+</body>
+</html>
