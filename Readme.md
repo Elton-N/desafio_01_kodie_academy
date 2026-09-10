@@ -1,4 +1,4 @@
-# 📚 Estante Livre — Biblioteca Virtual
+# Estante Livre — Biblioteca Virtual
 
 ##  Descrição do Projeto
 Landing page para a **Estante Livre**, uma biblioteca virtual fictícia que oferece empréstimo de e-books, audiobooks, clube de leitura e acervo acadêmico gratuitos. O projeto foi desenvolvido como **Desafio 01**, com foco em HTML semântico, CSS externo e responsividade, sem o uso de JavaScript.
