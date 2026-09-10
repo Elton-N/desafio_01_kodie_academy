@@ -1,9 +1,9 @@
-#  Estante Livre — Biblioteca Virtual
+# 📚 Estante Livre — Biblioteca Virtual
 
 ## Descrição do Projeto
 Landing page para a **Estante Livre**, uma biblioteca virtual fictícia que oferece empréstimo de e-books, audiobooks, clube de leitura e acervo acadêmico gratuitos. O projeto foi desenvolvido como **Desafio 01**, com foco em HTML semântico, CSS externo e responsividade, sem o uso de JavaScript.
 
----
+
 
 ## Tecnologias Utilizadas
 * **HTML5** (Semântico)
@@ -11,7 +11,7 @@ Landing page para a **Estante Livre**, uma biblioteca virtual fictícia que ofer
 * **Git & GitHub** (Controle de versão)
 * **GitHub Pages & Vercel** (Publicação)
 
----
+
 
 ## 📁 Estrutura do Projeto
 
@@ -32,14 +32,13 @@ Desafio_01/
 ├── README.md
 └── style.css
 
----
 
 ## 🔗 Links do Projeto
 * **Deploy na Vercel:** [https://desafio-01-kodie-academy.vercel.app/](https://desafio-01-kodie-academy.vercel.app/)
 * **GitHub Pages:** [https://elton-n.github.io/desafio_01_kodie_academy/](https://elton-n.github.io/desafio_01_kodie_academy/)
 * **Repositório no GitHub:** [https://github.com/Elton-N/desafio_01_kodie_academy](https://github.com/Elton-N/desafio_01_kodie_academy)
 
----
+
 
 ##  Uso de Inteligência Artificial
 Utilizei IA como apoio durante todo o desenvolvimento, seguindo o uso consciente pedido no desafio: pedi a estrutura, mas revisei, ajustei e entendi cada trecho de código antes de considerar a entrega pronta.
@@ -58,14 +57,14 @@ Utilizei IA como apoio durante todo o desenvolvimento, seguindo o uso consciente
   * **Comentários:** Solicitei apoio na elaboração de comentários no código para facilitar a leitura.
 * **Prompt 3 — Documentação para o README:** Pedi para registrar de forma organizada os prompts utilizados para esta seção, reforçando a transparência pedida no desafio.
 
----
+
 
 ##  Revisão e Validação Manual
 * Conferi se as imagens carregavam corretamente.
 * Testei a página em diferentes larguras de tela para confirmar que não havia rolagem horizontal.
 * Revisei a hierarquia de títulos (`<h1>` na página, `<h2>` por seção, `<h3>` nos cards) para garantir a acessibilidade pedida.
 
----
+
 
 ## 👤 Autor
 **Elton do Nascimento**
