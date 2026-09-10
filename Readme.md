@@ -14,9 +14,23 @@ Landing page para a **Estante Livre**, uma biblioteca virtual fictícia que ofer
 ---
 
 ## 📁 Estrutura do Projeto
-- `index.html`
-- `style.css`
-- `README.md`
+
+```text
+Desafio_01/
+├── imagem/
+│   ├── e_book.jpg
+│   ├── galeria-biblioteca-interior.jpg
+│   ├── galeria-cafe_2.avif
+│   ├── galeria-crianca_3.webp
+│   ├── galeria-ereader.jpg
+│   ├── galeria-estante.jpg
+│   ├── galeria-livros-antigos.avif
+│   ├── livro_fone_2.jpg
+│   ├── livro_virtual.jpg
+│   └── pessoa_lendo.jpg
+├── index.html
+├── README.md
+└── style.css
 
 ---
 
