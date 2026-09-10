@@ -17,8 +17,8 @@
   --cor-primaria: #1F2A44;     /* Azul-marinho profundo (header, footer, títulos) */
   --cor-destaque: #C89B3C;     /* Dourado/mostarda, usado no CTA e detalhes */
   --cor-destaque-escura: #A87F2C;
-  --cor-texto: #170101;;        /* Texto principal */
-  --cor-texto-secundario: #5C5750;
+  --cor-texto: #2E2E2E;        /* Texto principal */
+  --cor-texto-secundario: #45403A; /* Escurecido para melhor contraste e legibilidade sobre o fundo bege */
   --cor-borda: #E4D9C4;
   --raio-borda: 10px;
   --sombra: 0 2px 10px rgba(31, 42, 68, 0.08);
@@ -59,14 +59,6 @@ h1, h2, h3{
 img{
   max-width: 100%;   /* Nenhuma imagem ultrapassa a largura do elemento pai */
   display: block;
-}
-
-.hero-imagem {       /* primeira imagem */
-  max-width: 500px;  /* Altere este valor para diminuir ou aumentar (ex: 300px, 350px) */
-  width: 150%;       /* Garante que ela se adapte a telas menores (celulares) */
-  height: auto;      /* Mantém a proporção da imagem sem distorcer */
-  display: block;    /* Remove espaços vazios indesejados abaixo da imagem */
-  margin: 0 auto;    /* Centraliza a imagem no espaço dela */
 }
 
 a{
@@ -170,7 +162,9 @@ a{
 }
 
 .hero p{
-  color: var(--cor-texto-secundario);
+  color: var(--cor-texto); /* Texto principal (mais escuro), já que é a frase de abertura do site */
+  font-size: 1.1rem;
+  font-weight: 500;
   margin-bottom: 24px;
   max-width: 55ch;
 }
@@ -195,6 +189,9 @@ a{
 
 .hero-imagem{
   flex: 1 1 320px;
+  width: 100%;
+  max-height: 420px;   /* Impede que a imagem cresça demais, seja qual for o tamanho original da foto */
+  object-fit: cover;   /* Preenche esse espaço sem distorcer, cortando o excesso */
   border-radius: var(--raio-borda);
   box-shadow: var(--sombra);
 }
@@ -277,8 +274,10 @@ section h2{
 ================================================================ */
 .grade-galeria{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  grid-template-columns: repeat(3, 1fr); /* Fixo em 3 colunas no desktop: com 6 fotos, forma sempre 2 fileiras de 3 */
   gap: 20px;
+  max-width: 860px; /* Deixa cada foto com largura parecida à dos cards do Acervo, evitando que fiquem grandes demais */
+  margin: 0 auto;   /* Centraliza a galeria, já que ela agora é mais estreita que a seção */
 }
 
 .grade-galeria figure{
@@ -378,6 +377,10 @@ section h2{
   .grade-cards{
     grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
   }
+
+  .grade-galeria{
+    grid-template-columns: repeat(2, 1fr); /* 2 colunas no tablet: 3 fileiras de 2, mais confortável que 3 colunas apertadas */
+  }
 }
 
 /* ================================================================
@@ -420,7 +423,7 @@ section h2{
   }
 
   .grade-galeria{
-    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    grid-template-columns: 1fr; /* Uma coluna no celular: espaço confortável para foto e legenda */
   }
 
   /* Mesma lógica de área de toque maior aplicada aos links de
