@@ -61,8 +61,40 @@ img{
   display: block;
 }
 
+.hero-imagem {       /* primeira imagem */
+  max-width: 500px;  /* Altere este valor para diminuir ou aumentar (ex: 300px, 350px) */
+  width: 150%;       /* Garante que ela se adapte a telas menores (celulares) */
+  height: auto;      /* Mantém a proporção da imagem sem distorcer */
+  display: block;    /* Remove espaços vazios indesejados abaixo da imagem */
+  margin: 0 auto;    /* Centraliza a imagem no espaço dela */
+}
+
 a{
   color: var(--cor-primaria);
+}
+
+/* ================================================================
+   SKIP LINK (acessibilidade)
+   Fica posicionado fora da tela por padrão. Quando recebe foco
+   pelo teclado (tecla Tab), "aparece" no canto superior esquerdo,
+   permitindo pular direto para o conteúdo principal.
+================================================================ */
+.skip-link{
+  position: absolute;
+  top: -60px;          /* Fora da área visível da tela */
+  left: 12px;
+  background-color: var(--cor-destaque);
+  color: var(--cor-primaria);
+  font-weight: bold;
+  padding: 12px 20px;
+  border-radius: var(--raio-borda);
+  text-decoration: none;
+  z-index: 100;
+  transition: top 0.2s ease;
+}
+
+.skip-link:focus{
+  top: 12px; /* Entra na tela assim que recebe foco */
 }
 
 /* ================================================================
@@ -371,7 +403,16 @@ section h2{
 
   .menu{
     flex-direction: column;
-    gap: 10px;
+    gap: 4px;
+    width: 100%;
+  }
+
+  /* Área de toque maior (mínimo recomendado ~44px de altura) para
+     facilitar o toque em quem tem menos precisão motora no celular */
+  .menu a{
+    display: block;
+    padding: 12px 4px;
+    width: 100%;
   }
 
   .grade-cards{
@@ -380,5 +421,12 @@ section h2{
 
   .grade-galeria{
     grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  }
+
+  /* Mesma lógica de área de toque maior aplicada aos links de
+     redes sociais do rodapé, que também empilham no celular */
+  .redes-sociais a{
+    display: block;
+    padding: 10px 4px;
   }
 }

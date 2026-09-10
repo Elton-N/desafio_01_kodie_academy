@@ -1,7 +1,7 @@
 Estante Livre — Biblioteca Virtual
-Descrição do Projeto
 
-Landing page para a Estante Livre, uma biblioteca virtual fictícia que oferece empréstimo de e-books, audiobooks, clube de leitura e acervo acadêmico gratuitos. O projeto foi desenvolvido como Desafio 01, com foco em HTML semântico, CSS externo e responsividade, sem uso de JavaScript.
+Descrição do Projeto:
+O meu projeto e uma landing page para a Estante Livre, uma biblioteca virtual fictícia que oferece empréstimo de e-books, audiobooks, clube de leitura e acervo acadêmico gratuitos. O projeto foi desenvolvido como Desafio 01, com foco em HTML semântico, CSS externo e responsividade, sem uso de JavaScript.
 
 Tecnologias Utilizadas
 HTML5 (semântico)
@@ -14,7 +14,6 @@ biblioteca-virtual/
 ├── index.html
 ├── style.css
 └── README.md
-Link do Site Publicado
 
 GitHub Pages: https://elton-n.github.io/desafio_01_kodie_academy/
 
@@ -46,7 +45,10 @@ Comentários: Solicitei apoio na elaboração de comentários no código para fa
 Prompt 3 — Documentação do uso de IA para o README
 Como ajudou: pedi para a própria IA registrar, de forma organizada, quais prompts eu tinha utilizado e o que cada um gerou — o que resultou nesta seção do README. Isso reforça a transparência pedida no desafio: qualquer pessoa lendo consegue ver exatamente o que foi pedido à IA e o que foi entregue por ela, sem esconder o processo.
 
-O que revisei manualmente antes de considerar pronto
+Alguns do itens O que revisei manualmente antes de considerar pronto
 Conferi se as imagens (via loremflickr.com) carregavam corretamente.
 Testei a página em diferentes larguras de tela para confirmar que não havia rolagem horizontal, um dos requisitos explícitos do desafio.
 Revisei a hierarquia de títulos (um único `<h1>` na página, `<h2>` por seção, `<h3>` nos cards) para garantir a acessibilidade pedida.
+
+## Autor
+Elton do Nascimento.
