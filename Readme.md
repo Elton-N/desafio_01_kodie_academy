@@ -18,8 +18,10 @@ O projeto foi desenvolvido como **Desafio 01**, com foco em HTML semântico, CSS
 ```text
 Desafio_01/
 ├── imagem/
+│   ├── acervo-academico.webp
+│   ├── clube_leitura.jpg
 │   ├── e_book.jpg
-│   ├── galeria-biblioteca-interior.jpg
+│   ├── galeria-biblioteca-interior.jpeg
 │   ├── galeria-cafe_2.avif
 │   ├── galeria-crianca_3.webp
 │   ├── galeria-ereader.jpg
@@ -48,20 +50,20 @@ Utilizei IA como apoio durante todo o desenvolvimento, seguindo o uso consciente
 * Ajuste do layout responsivo, utilizando Flexbox no Hero e Grid nos cards e na galeria.
 * Explicação de propriedades CSS específicas, como `clamp()`, `object-fit`, `aspect-ratio` e `auto-fit/minmax()`.
 
-### Prompts Utilizados
+## Prompts Utilizados
 
-**Prompt 1 — Estrutura inicial**
+### Prompt 1 — Estrutura inicial
 
 Tive a ideia de criar uma página para uma biblioteca virtual e pedi ajuda com os requisitos do projeto, incluindo seções mínimas, tecnologias permitidas, regras de acessibilidade e responsividade.
 
-**Prompt 2 — Ajuda no CSS**
+### Prompt 2 — Ajuda no CSS
 
 * **Contraste de cores:** Garantir que a cor do texto tenha contraste suficiente contra o fundo.
 * **Indicadores de foco:** Manter ou estilizar a regra `:focus-visible` para destacar qual botão ou link está selecionado ao utilizar a tecla Tab.
 * **Tamanho das fontes:** Usar unidades relativas, como `rem` ou `em`, em vez de pixels fixos, para respeitar o zoom do navegador.
 * **Comentários:** Solicitei apoio na elaboração de comentários no código para facilitar a leitura.
 
-**Prompt 3 — Documentação para o README**
+### Prompt 3 — Documentação para o README
 
 Pedi ajuda para registrar de forma organizada os prompts utilizados nesta seção, reforçando a transparência solicitada no desafio.
 
