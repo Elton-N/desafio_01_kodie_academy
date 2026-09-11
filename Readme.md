@@ -14,13 +14,11 @@ O projeto foi desenvolvido como **Desafio 01**, com foco em HTML semântico, CSS
 * **GitHub Pages e Vercel** — Publicação do projeto
 
 ## Estrutura do Projeto
-
 ```text
 Desafio_01/
 ├── imagem/
 │   ├── acervo-academico.webp
 │   ├── clube_leitura.jpg
-│   ├── e_book.jpg
 │   ├── galeria-biblioteca-interior.jpeg
 │   ├── galeria-cafe_2.avif
 │   ├── galeria-crianca_3.webp
